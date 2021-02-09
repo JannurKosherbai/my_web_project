@@ -1,36 +1,46 @@
-.header {
+.header {}
+
+.header-top,
+.header-main {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    height: 100px;
-    padding-left: 5%;
-    padding-right: 5%;
-    padding-top: 1%;
-    position: fixed;
-    right: 0;
-    left: 0;
-    background-color: #ffffff;
 }
 
-.logo img {
-    width: 100px;
+.header-top {
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
-.nav {
+.agents {
     display: flex;
     align-items: center;
+    font-size: 13px;
 }
 
-.nav a {
-    margin-left: 40px;
+.agents>p>a {
+    color: #00b2f0;
 }
 
-.links {
-    margin: 40px;
+.agent-item {
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
 }
 
-.links>a {
-    color: black;
+.agent-item>img {
+    width: 40px;
+    border-radius: 50%;
+    border: 1px double #ccc;
+    margin-right: 10px;
+}
+
+.agent-item>a {
+    color: #000;
+}
+
+.agent-item span {
+    color: #ed79ae;
 }
 
 .icons {
@@ -39,12 +49,117 @@
 }
 
 .icons>a {
-    color: black;
-    background-color: cornsilk;
-    border-radius: 50%;
+    color: #4c4c4c;
     width: 28px;
     height: 28px;
+}
+
+.header-main {
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-bottom: 20px;
+}
+.logo img {
+    width: 80px;
+}
+
+.logo a {
     display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.logo-text {
+    text-transform: uppercase;
+    color: #4c4c4c;
+    font-size: 14px;
+    letter-spacing: 10px;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+}
+
+.links a {
+    text-transform: capitalize;
+    font-size: 16px;
+    padding: 35px 30px;
+    display: inline-block;
+    position: relative;
+    color: #808080;
+}
+
+.links {
+    position: relative;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    margin-left: 10px;
+
+}
+
+.links::before {
+    content: "";
+    background-color: #ccc;
+    height: 2px;
+    position: absolute;
+    top: 0;
+    right: -20%;
+    left: 0;
+}
+
+.links a:hover::before {
+    transform: scale(1);
+}
+
+.links a::before {
+    content: "";
+    background-color: #00b2f0;
+    height: 2px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    width: 100%;
+    transform: scale(0);
+    transition: .4s;
+}
+
+.links a.active::before {
+    transform: scale(1);
+}
+
+.buy-lots > span {
+    text-transform: uppercase;
+    letter-spacing: 12px;
+    line-height: 1.5;
+    font-size: 14px;
+}
+.buy-lots {
+    position: relative;
+    text-align: center;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    padding-left: 10px;
+}
+
+.buy-lots::before {
+    content: "";
+    position: absolute;
+    top:0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    border: 5px solid #ed79ae;
+    transition: .1s;
+}   
+
+.buy-lots:hover::before {
+    border-color: #ed79ae;
+    border-width: 10px;
 }

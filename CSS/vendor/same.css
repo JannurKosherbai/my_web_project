@@ -31,29 +31,30 @@
     margin-top: 20px
 }
 
-.adv-item {
-    width: 22%;
-    text-align: center;
-}
-
-.adv-item img {
-    width: 70px;
-    height: 70px;
-}
-
-.adv-item h4 {
-    font-weight: bold;
-    color: #333;
-    font-size: 18px;
-    margin-top: 20px;
-    margin-bottom: 8px;
-}
-
-.adv p {
-    font-size: 14px;
-    color: #999;
-}
-
 .section-top {
     margin-bottom: 60px;
+}
+
+.read {
+    color: #ed79ae;
+    text-transform: uppercase;
+    font-size: 15px;
+    letter-spacing: 5px;
+    position: relative;
+    padding-bottom: 10px;
+}
+
+.read::after {
+    content: '';
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom:0;
+    background-color: #ed79ae;
+    height: 4px;
+    transition: .4s;
+}
+
+.read:hover::after{
+    height: 8px;
 }
