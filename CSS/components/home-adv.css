@@ -1,8 +1,26 @@
 .home-advantages {
-    background-image: url(http://webdesign-finder.com/azhomes/wp-content/uploads/2019/02/pattern0.png);
+    width: 80%;
+    margin: auto;
+    background-color: #fff;
+    position: relative;
+    top: -120px;
+    padding-right: 20px;
+    padding-left: 20px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
 }
 
-.adv-item {
-    margin: -20px;
-    padding: -40px;
+.home-advantages .wrap {
+    position: relative;
+}
+
+.home-advantages .wrap::after {
+    content: '';
+    position: absolute;
+    background-color: #EAEAEA;
+    top: 5%;
+    left: 0;
+    right: 0;
+    bottom: 5%;
+    width: 2px;
+    margin: auto;
 }

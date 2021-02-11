@@ -1,0 +1,32 @@
+.team {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.template-item {
+    width: 25%;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.template-item img {
+    width: 150%;
+    height: auto;
+    position: relative;
+    margin-right: 1%;
+}
+
+.template-item h4 {
+    font-weight: bold;
+    color: #333;
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.template-item p {
+    font-size: 14px;
+    color: #999;
+    margin-bottom: 20px;
+}

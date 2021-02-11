@@ -1,14 +1,118 @@
-.appeal-media>pattern {
-    width: 80px;
+.appeal-row {
+    display: flex;
     position: relative;
-    top: -10px;
-    left: -10px;
-    right: 10px;
-    bottom: 10px;
+    box-sizing: border-box;
 }
 
-.appeal-media>appeal {
-    position: relative;
+.appeal-img {
+    width: 200%;
+}
+
+.appeal-img>img {
     z-index: 2;
-    top: -20px;
+}
+
+.appeal-img::before {
+    content: '';
+    position: absolute;
+    top: -30px;
+    left: -30px;
+    right: 30px;
+    bottom: 30px;
+    z-index: 1;
+    background: url(images/pattern/pattern3.png) no-repeat center / cover;
+}
+
+.appeal-img::after {
+    content: '';
+    position: absolute;
+    top: 30px;
+    left: 55%;
+    right: 17%;
+    bottom: -30px;
+    border: 3px solid #ed79ae;
+    z-index: -1;
+}
+
+.appeal-design>img {
+    width: auto;
+    position: absolute;
+}
+
+.appeal-text {
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 20px;
+    padding-left: 20px;
+    text-align: center;
+}
+
+.appeal-text>h6 {
+    color: #333;
+    font-size: 17px;
+    padding-bottom: 18px;
+}
+
+.appeal-text>h3 {
+    color: #333;
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 1;
+}
+
+.appeal-text>p {
+    margin-bottom: 0.7em;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 30px;
+}
+
+.appeal-text>h5 {
+    color: #333;
+    margin-bottom: 0.7em;
+    font-size: 16px;
+    font-weight: 900;
+    line-height: 30px;
+}
+
+.first {
+    color: #ed79ae;
+    font-size: 24px;
+    line-height: 1.4em;
+    font-weight: 300;
+}
+
+.appeal-text>h4 {
+    color: #333;
+    margin-bottom: 1.4em;
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 30px;
+}
+
+.second {
+    font-size: 52px;
+    color: #808080;
+    font-weight: 500;
+    margin: 0 18px;
+    display: inline-block;
+    position: relative;
+    top: 10px;
+    opacity: 0.3;
+}
+
+.signature {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: -55px;
+    left: 20%;
+}
+
+.signature-text {
+    margin-left: 20px;
+    font-size: 16px;
+    color: #333;
 }
