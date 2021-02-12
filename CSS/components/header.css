@@ -60,7 +60,10 @@
     padding-right: 3%;
     padding-bottom: 20px;
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> 6b6e377650089c09f71474d47d0543a9a146a0ca
 .logo img {
     width: 80px;
 }
@@ -81,6 +84,7 @@
 
 .nav {
     display: flex;
+<<<<<<< HEAD
     align-items: center;
     padding-bottom: 4%;
 }
@@ -100,6 +104,27 @@
     width: 100%;
     align-items: center;
     margin-left: 10px;
+=======
+    align-items: center;
+}
+
+.links a {
+    text-transform: capitalize;
+    font-size: 16px;
+    padding: 35px 30px;
+    display: inline-block;
+    position: relative;
+    color: #808080;
+}
+
+.links {
+    position: relative;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    margin-left: 10px;
+
+>>>>>>> 6b6e377650089c09f71474d47d0543a9a146a0ca
 }
 
 .links::before {
@@ -133,20 +158,31 @@
     transform: scale(1);
 }
 
+<<<<<<< HEAD
 .buy-lots>span {
+=======
+.buy-lots > span {
+>>>>>>> 6b6e377650089c09f71474d47d0543a9a146a0ca
     text-transform: uppercase;
     letter-spacing: 12px;
     line-height: 1.5;
     font-size: 14px;
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> 6b6e377650089c09f71474d47d0543a9a146a0ca
 .buy-lots {
     position: relative;
     text-align: center;
     width: 100px;
     height: 100px;
     display: flex;
+<<<<<<< HEAD
     align-items: center;
+=======
+    align-items:center;
+>>>>>>> 6b6e377650089c09f71474d47d0543a9a146a0ca
     justify-content: center;
     padding-left: 10px;
 }
@@ -154,13 +190,21 @@
 .buy-lots::before {
     content: "";
     position: absolute;
+<<<<<<< HEAD
     top: 0;
+=======
+    top:0;
+>>>>>>> 6b6e377650089c09f71474d47d0543a9a146a0ca
     right: 0;
     bottom: 0;
     left: 0;
     border: 5px solid #ed79ae;
     transition: .1s;
+<<<<<<< HEAD
 }
+=======
+}   
+>>>>>>> 6b6e377650089c09f71474d47d0543a9a146a0ca
 
 .buy-lots:hover::before {
     border-color: #ed79ae;
