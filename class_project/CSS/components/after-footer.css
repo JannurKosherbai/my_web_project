@@ -1,0 +1,26 @@
+.row-after {
+    position: relative;
+    overflow: hidden;
+    margin-right: 10px;
+    margin-left: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    text-align: center;
+    letter-spacing: 200px;
+}
+
+.copyright {
+    background: url(../../images/pattern/pattern1.png);
+    color: white;
+    font-weight: 600;
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-top: 70px;
+    text-align: center;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    letter-spacing: 5px;
+}

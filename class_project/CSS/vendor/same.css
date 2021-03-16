@@ -34,7 +34,6 @@
 
 .section-top {
     margin-bottom: 60px;
-<<<<<<< HEAD:CSS/vendor/same.css
 }
 
 .adv-item {
@@ -61,30 +60,4 @@
     font-size: 14px;
     color: #999;
     margin-bottom: 20px;
-=======
-}
-
-.read {
-    color: #ed79ae;
-    text-transform: uppercase;
-    font-size: 15px;
-    letter-spacing: 5px;
-    position: relative;
-    padding-bottom: 10px;
-}
-
-.read::after {
-    content: '';
-    position: absolute;
-    right: 0;
-    left: 0;
-    bottom:0;
-    background-color: #ed79ae;
-    height: 4px;
-    transition: .4s;
-}
-
-.read:hover::after{
-    height: 8px;
->>>>>>> 6b6e377650089c09f71474d47d0543a9a146a0ca:CSS/components/same.css
 }

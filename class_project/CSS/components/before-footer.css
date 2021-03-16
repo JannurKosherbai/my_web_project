@@ -1,0 +1,53 @@
+.row {
+    width: 100%;
+    display: flex;
+    right: 0;
+    left: 0;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+    text-align: center;
+    position: relative;
+    padding-right: 15px;
+    padding-left: 15px;
+    flex-direction: column;
+    background-color: lightseagreen;
+}
+
+.contact-us-title>h3 {
+    margin-left: auto;
+    font-size: 36px;
+    margin-bottom: 0;
+    font-weight: 500;
+    line-height: 1;
+    text-transform: capitalize;
+    color: #fff;
+}
+
+.contact-us-share {
+    padding: 80px 0;
+    text-align: center;
+    background: url(../../images/pattern/pattern1.png);
+    width: 100%;
+    min-width: 240px;
+    white-space: unset;
+    border-color: #ed79ae;
+    border: 1px solid transparent;
+}
+
+.btn {
+    color: white;
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 12px;
+    text-indent: 12px;
+    text-transform: uppercase;
+    text-align: center;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.btn>btn-outline-maincolor2 {
+    margin-left: 20px;
+    transition: all 0.3s ease;
+}
