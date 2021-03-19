@@ -9,7 +9,7 @@
 }
 
 .template-item {
-    width: 30%;
+    width: 33%;
     text-align: center;
     padding-top: 50px;
     padding-bottom: 50px;
@@ -23,9 +23,9 @@
 }
 
 .team-top>h3 {
+    font-size: 30px;
     font-weight: 700;
     color: #333;
-    font-size: 30px;
     margin-top: 20px;
     margin-bottom: 20px;
 }
